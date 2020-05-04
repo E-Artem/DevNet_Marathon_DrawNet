@@ -1,0 +1,33 @@
+test-sw:
+  hostname: 10.145.39.9
+  groups:
+      - homework_day2
+  data:
+    tags:
+      - ios
+  connection_options:
+    netmiko:
+        extras:
+          device_type: 'cisco_ios_ssh'
+T9D-ACC1:
+  hostname: 10.145.39.10
+  groups:
+      - homework_day2
+  data:
+    tags:
+      - ios
+  connection_options:
+    netmiko:
+        extras:
+          device_type: 'cisco_ios_ssh'
+T9D-CSW1:
+  hostname: 10.145.39.1
+  groups:
+      - homework_day2
+  data:
+    tags:
+      - ios
+  connection_options:
+    netmiko:
+        extras:
+          device_type: 'cisco_ios_ssh'

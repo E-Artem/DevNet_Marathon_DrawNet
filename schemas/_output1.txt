@@ -1,0 +1,112 @@
+
+New Node:
+ Device ID 1: host test-sw (MAC d4ad71ee9a00; SN 'FOC2244Y2K7'), HW WS-C3560CX-8PC-S
+
+New Node:
+ Device ID 2: host T9D-ACC1 (MAC 0cd0f860eb00; SN 'JTV2246101Z'), HW WS-C2960X-24PS-L
+
+New Node:
+ Device ID 3: host T9D-CSW1 (MAC 00b1e363de00; SN 'FOC2238X00T'), HW WS-C3850-24S
+
+New Node:
+ Device ID 3: host T9D-CSW1 (MAC 700b4fc9b380; SN 'FOC2237L2FC'), HW WS-C3850-24S
+
+New Node:
+ Device ID 4: host SEP00AA6E0E0DEC (MAC 00aa6e0e0dec; SN 'WZP222717G0'), HW Cisco IP Phone 7861, V1, sip78xx.12-7-1-0001-393.loads
+
+New Link 
+ Side 1: device ID 4; host/port SEP00AA6E0E0DEC:P1 (MAC: '00aa6e0e0dec'; SN: 'WZP222717G0'); info: Cisco IP Phone 7861
+ Side 2: device ID 1; host/port test-sw:Gi0/3 (MAC: 'd4ad71ee9a00'; SN: 'FOC2244Y2K7'); info: WS-C3560CX-8PC-S
+
+New Node:
+ Device ID 5: host SEP700B4F7A2019 (MAC 700b4f7a2019; SN 'FCH2240E7V3'), HW Cisco IP Phone 8861, V1, sip88xx.12-7-1-0001-393.loads
+
+New Link 
+ Side 1: device ID 5; host/port SEP700B4F7A2019:P1 (MAC: '700b4f7a2019'; SN: 'FCH2240E7V3'); info: Cisco IP Phone 8861
+ Side 2: device ID 1; host/port test-sw:Gi0/2 (MAC: 'd4ad71ee9a00'; SN: 'FOC2244Y2K7'); info: WS-C3560CX-8PC-S
+
+New Link 
+ Side 1: device ID 2; host/port T9D-ACC1:Gi1/0/24 (MAC: '0cd0f860eb00'; SN: 'JTV2246101Z'); info: WS-C2960X-24PS-L
+ Side 2: device ID 1; host/port test-sw:Gi0/10 (MAC: 'd4ad71ee9a00'; SN: 'FOC2244Y2K7'); info: WS-C3560CX-8PC-S
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi1/0/13 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 2; host/port T9D-ACC1:Gi1/0/25 (MAC: '0cd0f860eb00'; SN: 'JTV2246101Z'); info: WS-C2960X-24PS-L
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi2/0/13 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 2; host/port T9D-ACC1:Gi1/0/26 (MAC: '0cd0f860eb00'; SN: 'JTV2246101Z'); info: WS-C2960X-24PS-L
+
+Duplicate Link 
+ Side 1: device ID 2; host/port T9D-ACC1:Gi1/0/24 (MAC: '0cd0f860eb00'; SN: 'JTV2246101Z'); info: WS-C2960X-24PS-L
+ Side 2: device ID 1; host/port test-sw:Gi0/10 (MAC: 'd4ad71ee9a00'; SN: 'FOC2244Y2K7'); info: WS-C3560CX-8PC-S
+
+New Node:
+ Device ID 6: host T9D-RT2 (MAC d4c93c4baa40; SN ''), HW Cisco IOS Software [Fuji], ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9_NPE-M), Version 16.9.4, RELEASE SOFTWARE (fc2)
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi2/0/5 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 6; host/port T9D-RT2:Gi0/0/1 (MAC: 'd4c93c4baa40'; SN: ''); info: Cisco IOS Software [Fuji]
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi1/0/5 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 6; host/port T9D-RT2:Gi0/0/0 (MAC: 'd4c93c4baa40'; SN: ''); info: Cisco IOS Software [Fuji]
+
+New Node:
+ Device ID 7: host T9D-VGW1 (MAC d4c93c6dc600; SN ''), HW Cisco IOS Software, VG350 Software (VG350-UNIVERSALK9_NPE-M), Version 15.7(3)M5, RELEASE SOFTWARE (fc1)
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi1/0/8 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 7; host/port T9D-VGW1:Gi0/0.442 (MAC: 'd4c93c6dc600'; SN: ''); info: Cisco IOS Software
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi2/0/8 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 7; host/port T9D-VGW1:Gi0/1.443 (MAC: 'd4c93c6dc600'; SN: ''); info: Cisco IOS Software
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi2/0/8 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 7; host/port T9D-VGW1:Gi0/1.442 (MAC: 'd4c93c6dc600'; SN: ''); info: Cisco IOS Software
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi1/0/8 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 7; host/port T9D-VGW1:Gi0/0.443 (MAC: 'd4c93c6dc600'; SN: ''); info: Cisco IOS Software
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi2/0/8 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 7; host/port T9D-VGW1:Gi0/1.441 (MAC: 'd4c93c6dc600'; SN: ''); info: Cisco IOS Software
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi1/0/8 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 7; host/port T9D-VGW1:Gi0/0.441 (MAC: 'd4c93c6dc600'; SN: ''); info: Cisco IOS Software
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi1/0/8 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 7; host/port T9D-VGW1:Gi0/0 (MAC: 'd4c93c6dc600'; SN: ''); info: Cisco IOS Software
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi2/0/8 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 7; host/port T9D-VGW1:Gi0/1 (MAC: 'd4c93c6dc600'; SN: ''); info: Cisco IOS Software
+
+Duplicate Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi1/0/13 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 2; host/port T9D-ACC1:Gi1/0/25 (MAC: '0cd0f860eb00'; SN: 'JTV2246101Z'); info: WS-C2960X-24PS-L
+
+Duplicate Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi2/0/13 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 2; host/port T9D-ACC1:Gi1/0/26 (MAC: '0cd0f860eb00'; SN: 'JTV2246101Z'); info: WS-C2960X-24PS-L
+
+New Node:
+ Device ID 8: host T9D-RT1 (MAC d4c93c3ff370; SN ''), HW Cisco IOS Software [Fuji], ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9_NPE-M), Version 16.9.4, RELEASE SOFTWARE (fc2)
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi1/0/4 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 8; host/port T9D-RT1:Gi0/0/0 (MAC: 'd4c93c3ff370'; SN: ''); info: Cisco IOS Software [Fuji]
+
+New Link 
+ Side 1: device ID 3; host/port T9D-CSW1:Gi2/0/4 (MAC: '00b1e363de00, 700b4fc9b380'; SN: 'FOC2238X00T, FOC2237L2FC'); info: 2 devices
+ Side 2: device ID 8; host/port T9D-RT1:Gi0/0/1 (MAC: 'd4c93c3ff370'; SN: ''); info: Cisco IOS Software [Fuji]
+
+Current topology file : 'topology_20200506-034913.yaml'
+
+Rendering file 'topology_20200506-034913'
+

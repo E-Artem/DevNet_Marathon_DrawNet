@@ -1,0 +1,4 @@
+homework_day2:
+  platform: 'cisco_ios'
+  username: 'devnet'
+  password: 'devnet'
