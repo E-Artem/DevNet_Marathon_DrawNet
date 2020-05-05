@@ -49,32 +49,17 @@ Tips:дл€ сравнени€ версий топологии иххорошо было бы сохран€ть.
 
 -----
 
-Previous topology file: 'topology_20200506-034913.yaml'
-Current topology file : 'topology_20200506-040329.yaml'
-Analyzing current topology vs previous:
- new device: 'LLDP_d4c93c4b9840'
- new link: 
-  device 'T9D-ACC1' port 'Gi1/0/20'
-  device 'rtr_4451' port 'Gi0/0/0.441'
- new link: 
-  device 'T9D-ACC1' port 'Gi1/0/20'
-  device 'rtr_4451' port 'Gi0/0/0'
+Previous topology file: 'topology_20200506-034913.yaml'  
+Current topology file : 'topology_20200506-040329.yaml'  
+Analyzing current topology vs previous:  
+ new device: 'LLDP_d4c93c4b9840'  
+ new link:   
+  device 'T9D-ACC1' port 'Gi1/0/20'  
+  device 'rtr_4451' port 'Gi0/0/0.441'  
+ new link:   
+  device 'T9D-ACC1' port 'Gi1/0/20'  
+  device 'rtr_4451' port 'Gi0/0/0'  
 
-Rendering file 'topology_20200506-040329'
+Rendering file 'topology_20200506-040329'  
 
 -----
-
-
-
-
-
-
-- в .yaml
-
-в csv-файле devices.csv через зап€тую указываютс€ параметры устройств в сети: host, device_type, username, password, secret
-- в случае необходимости адрес NTP-сервера сети может быть изменен в переменной NTP_SRV скрипта getcfg.py
-
-¬ыходные данные:
-- создаетс€ директори€ "config_backups", внутри которой записываютс€ конфигурации устройств заданных в файле csv
-- в консоль выводитс€ отчет (формат согласно заданию, см. "ѕример" выше)
-- данные, выводимые в консоль, дублируютс€ в файл "output.txt"
